@@ -5,7 +5,7 @@ import 'package:optelgoa/roundedbutton.dart';
 import 'package:optelgoa/constants.dart';
 
 class AdminLogin extends StatefulWidget {
-  static const id = 'login';
+  static const id = 'loginAdmin';
   @override
   _AdminLoginState createState() => _AdminLoginState();
 }

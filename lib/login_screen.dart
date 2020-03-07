@@ -71,7 +71,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     body: {"uId": empid});
                 var result = json.decode(response.body);
 
-                if (result) {
+                
                   Fluttertoast.showToast(msg: "Login Successful");
 
                   Navigator.push(
@@ -82,9 +82,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       },
                     ),
                   );
-                } else {
-                  Fluttertoast.showToast(msg: "Login Failed");
-                }
+                
               },
             ),
           ],
