@@ -66,10 +66,10 @@ class _LoginScreenState extends State<LoginScreen> {
               title: 'LOG IN',
               colur: Color(0xFF1CE3B1),
               onPressed: () async {
-                final response = await http.post(
-                    'http://${MyApp.ip}/PHP_Codes/Optel/getData.php',
-                    body: {"uId": empid});
-                var result = json.decode(response.body);
+                // final response = await http.post(
+                //     'http://${MyApp.ip}/PHP_Codes/Optel/getData.php',
+                //     body: {"uId": empid});
+                // var result = json.decode(response.body);
 
                 
                   Fluttertoast.showToast(msg: "Login Successful");
